@@ -16,7 +16,6 @@ from pprint import pprint
 from bs4 import BeautifulSoup
 import json
 from pymongo import MongoClient
-from dbConnection import config
 bestsellers_url = "https://www.amazon.in/gp/bestsellers"
 # bestsellers_url = 'https://www.amazon.in/gp/bestsellers/boost/10894225031/ref=zg_bs_nav_2_10894224031'
 category_root_id = "zg_browseRoot"
